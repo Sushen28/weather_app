@@ -1,0 +1,33 @@
+.forecast {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forecast h2 {
+    margin-bottom: 10px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    width: 70px; /* Width for each forecast item */
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item img {
+    width: 50px; /* Icon size */
+    height: 50px;
+}
+
+.forecast-item p {
+    margin: 5px 0;
+}

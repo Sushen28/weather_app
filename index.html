@@ -9,6 +9,9 @@
 </head>
 <body>
     <div class="container">
+        <h1>Weather App by Rallabandi Sushen</h1> 
+        <div class="info-button" onclick="showInfo()">ℹ️ Info</div> <!-- Info button -->
+        
         <div class="search-box">
             <i class='bx bxs-map'></i>
             <input id="search-input" type="text" placeholder="Enter Your Location">
@@ -19,7 +22,7 @@
                 <div class="info-weather">
                     <div class="weather">
                         <img src="images/cloud.jpg" alt="Weather Image">
-                        <p class="temperature"> <span>°C</span></p>
+                        <p class="temperature"> 0 <span>°C</span></p>
                         <p class="description">Broken clouds</p>
                     </div>
                 </div>
@@ -30,7 +33,7 @@
                 <i class="bx bx-water"></i>
                 <div class="text">
                     <div class="info-humidity">
-                        <span>%</span>
+                        <span>0%</span>
                     </div>
                     <p>Humidity</p>
                 </div>
@@ -56,6 +59,13 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function showInfo() {
+            alert("PM Accelerator is a program designed to help accelerate project management skills and knowledge. For more information, visit our LinkedIn page.");
+        }
+    </script>
+
     <script src="ap.js"></script>
 </body>
 </html>
